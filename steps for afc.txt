@@ -1,0 +1,34 @@
+AFCR System
+│
+├── Film Input
+│   └── Video File
+│
+├── Preprocessing
+│   ├── Frame Extraction
+│   │   └── Extract Frames from Video
+│   └── Audio Transcription
+│       └── Convert Audio to Text
+│
+├── Data Processing
+│   ├── Feature Extraction
+│   │   ├── Visual Features
+│   │   │   ├── Violence Detection (CNN)
+│   │   │   └── Blood Detection (CNN)
+│   │   └── Text Analysis
+│   │       └── Profanity Detection (NLP)
+│   └── Model Inference
+│       ├── Violence Detection
+│       ├── Blood Detection
+│       └── Profanity Detection
+│
+├── Timestamp Mapping
+│   └── Map to Film Duration
+│
+├── Results Storage
+│   ├── Violence Timestamps
+│   ├── Profanity Timestamps
+│   └── Blood Timestamps
+│
+└── Reporting & Visualization
+    ├── Output Timestamps
+    └── Summary Report
